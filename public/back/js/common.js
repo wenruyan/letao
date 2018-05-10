@@ -17,3 +17,8 @@ $(document).ajaxStop(function() {
     NProgress.done();
   }, 500);
 });
+
+// 分类管理
+$('.lt_aside .nav .category').click(function () {
+  $('.child').slideToggle();
+})
