@@ -129,3 +129,7 @@ a:active{
 .breadcrumb{
   margin-top: 20px;
 }
+
+.modal-body p{
+  color: #A94442;
+}
