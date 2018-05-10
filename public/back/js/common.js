@@ -5,14 +5,15 @@
 NProgress.configure({ showSpinner: false });
 
 //进度条
-$(document).ajaxStart(function () {
-  //开启进度条
+$(document).ajaxStart(function() {
+  // 开启进度条
   NProgress.start();
 });
-$(document).ajaxStop(function () {
-  setTimeout(function () {
+
+$(document).ajaxStop(function() {
+  // 模拟网络环境
+  setTimeout(function() {
     // 结束进度条
     NProgress.done();
-  },500)
-  
-})
+  }, 500);
+});
