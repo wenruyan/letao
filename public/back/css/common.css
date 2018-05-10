@@ -73,12 +73,13 @@ a:active{
   padding-left: 0;
   margin-bottom: 0;
 }
-.lt_aside  .nav li a{
+.lt_aside  .nav  a{
   height: 40px;
   line-height: 40px;
   display: block;
   color: white;
   padding-left: 40px;
+  border-left: 3px solid transparent;
 }
 .lt_aside  .nav i{
   margin-right: 5px;
@@ -89,10 +90,10 @@ a:active{
 .lt_aside.hidemenu{
   left: -180px;
 }
-/*.lt_aside .nav li a.curretn{*/
-  /*border: 3px solid #006699;*/
-  /*background-color: #1D1F21;*/
-/*}*/
+.lt_aside .nav li a.current{
+  border-left: 3px solid #006699;
+  background-color: #1D1F21;
+}
 .lt_main{
   width: 100%;
   height: 1000px;
