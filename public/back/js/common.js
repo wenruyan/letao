@@ -22,3 +22,12 @@ $(document).ajaxStop(function() {
 $('.lt_aside .nav .category').click(function () {
   $('.child').slideToggle();
 })
+
+//点击菜单按钮，侧边栏隐藏
+$('.icon_menu').click(function () {
+  $('.lt_aside').toggleClass('hidemenu');
+  $('.lt_main').toggleClass('hidemenu');
+  $('.lt_main .main_top').toggleClass('hidemenu');
+})
+
+//模态框
